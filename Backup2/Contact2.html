@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contact2.css">
+</head>
+<body>
+    <div class="contact-title">
+        <h1> Contact us</h1>
+        <h2>We are always ready to serve you!</h2>
+    </div>
+    <section>
+        <div class="logo">
+            
+        </div>
+        <div class="content">
+
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="#">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+
+            <input name="name" type="email" class="form-control" placeholder="Your Email" required><br>
+
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required>       
+            </textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE"> 
+        </form>
+    
+   
+<p class="copyrighttext">@2020. Group 1</p>
+        </div>
+    </section>
+    <div class="menuTonggle" onclick="togglemenu()"></div>
+    <div class="navigation">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="About.html">About<a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="try.html">Contact</a></li>
+        </ul>
+        <div class="socialBar">
+            <ul>
+                <li><a href="https://www.facebook.com/HobGent-105169038109856"><img src="facebook.png"></a></li>
+                <li><a href="https://twitter.com/hobgent?s=21"><img src="twitter.png"></a></li>
+                <li><a href="https://www.instagram.com/hobgent/"><img src="instagram.png"></a></li>
+            </ul>
+            <a href="mailto: hobgentbusiness@gmail.com" class="emailBx"><img src="email.png"></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+    function togglemenu(){
+        var menuTonggle = document.querySelector('.menuTonggle');
+        var navigation = document.querySelector('.navigation');
+        menuTonggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+    }
+    </script>
+</body>
+
+</html>

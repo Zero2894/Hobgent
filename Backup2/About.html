@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HobGent</title>
+    <link rel="stylesheet" href="Styleabout.css">
+</head>
+<body>
+    
+    <section>
+        <div class="logo">
+            HobGent
+        </div>
+        <img src="hatdohg.jpeg" class="bg">
+        <div class="content">
+            <h2>
+                About us<br></h2>
+                <h3>Our Business Goals:</h3>
+            <p> Objective : To establish a helpful online community. To promote competence and reliability to people<br><br>
+                Mission: To be an easy access website for people who are confused with a particular thing and want to learn more about it.<br><br>
+                Vision: To create a platform in which people are able to share and teach skills and talents.<br><br>
+                
+            </p>
+            
+
+
+<p class="copyrighttext">@2020. Group 1</p>
+        </div>
+    </section>
+    <div class="menuTonggle" onclick="togglemenu()"></div>
+    <div class="navigation">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About<a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="Contact2.html">Contact</a></li>
+        </ul>
+        <div class="socialBar">
+            <ul>
+                <li><a href="https://www.facebook.com/HobGent-105169038109856"><img src="facebook.png"></a></li>
+                <li><a href="https://twitter.com/hobgent?s=21"><img src="twitter.png"></a></li>
+                <li><a href="https://www.instagram.com/hobgent/"><img src="instagram.png"></a></li>
+            </ul>
+            <a href="mailto: hobgentbusiness@gmail.com" class="emailBx"><img src="email.png"></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+    function togglemenu(){
+        var menuTonggle = document.querySelector('.menuTonggle');
+        var navigation = document.querySelector('.navigation');
+        menuTonggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+    }
+    </script>
+</body>
+
+</html>
